@@ -1,5 +1,5 @@
 # TaskMaster ToDo Application
-TaskMaster is a simple yet powerful ToDo application that allows users to manage tasks efficiently. It is built using Spring Boot, MySQL, JPA for data persistence, and JSP for the frontend. The application supports full CRUD (Create, Read, Update, Delete) functionality, along with user authentication.
+TaskMaster is a simple yet powerful ToDo application that allows users to manage tasks efficiently. It is built using Spring Boot, MySQL, JPA for data persistence, and JSP for the front end. The application supports full CRUD (Create, Read, Update, Delete) functionality, along with user authentication.
 
 # Features
 User Authentication: Secure login and registration for users.
@@ -17,30 +17,11 @@ Testing: JUnit for unit testing
 Build Tool: Maven
 
 # Installation and Setup
-Prerequisites
-Before you begin, ensure you have the following installed:
-
 Java 8+
 Maven
 MySQL
 
-# Project Structure
-taskmaster-todo-app
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com.example.taskmaster
-│   │   │       ├── controller    # Controllers for handling web requests
-│   │   │       ├── model         # JPA Entities
-│   │   │       ├── repository    # Repositories for database interaction
-│   │   │       └── service       # Business logic
-│   │   ├── resources
-│   │   │   └── templates         # JSP Pages for the frontend
-│   │   └── application.properties # Configuration for database, etc.
-│
-├── pom.xml                       # Maven dependencies and plugins
-└── README.md                     # Project documentation
+
 
 # Usage
 Create a Task: Navigate to the "New Task" section to add tasks with a title, description, and deadline.
